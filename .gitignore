@@ -1,0 +1,36 @@
+# Build Artifacts
+/target/
+*.war
+*.jar
+
+# IDE Files
+.idea/
+*.iml
+.project
+.classpath
+.settings/
+
+# Logs
+*.log
+
+# Configuration Files
+application.properties
+application-*.properties
+application.yml
+application-*.yml
+
+# OS-specific
+.DS_Store
+Thumbs.db
+
+# Dependency Caches
+/.mvn/
+dependency-reduced-pom.xml
+
+# Temporary Files
+*.tmp
+*.bak
+*.swp
+
+# Environment Files
+.env
