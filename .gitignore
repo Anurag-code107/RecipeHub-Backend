@@ -5,10 +5,12 @@
 
 # IDE Files
 .idea/
+.vscode/
 *.iml
 .project
 .classpath
 .settings/
+.factorypath
 
 # Logs
 *.log
