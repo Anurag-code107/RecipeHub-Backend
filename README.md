@@ -103,8 +103,11 @@ The backend will be accessible at:
 ```json
 {
   "title": "Recipe Title",
+  "image": "Image URL",
   "description": "Recipe Description",
-  "vegetarian": true
+  "category": "Vegetarian or Non Vegetarian",
+  "ingredients": ["Ingredient 1", "Ingredient 2", "Ingredient 3"],
+  "instructions": "Step-by-step cooking instructions",
 }
 ```
 
@@ -123,6 +126,13 @@ The backend will be accessible at:
 - **Method**: `DELETE`  
 - **Endpoint**: `/api/recipes/{id}`  
 - **Description**: Deletes the recipe with the specified `id`.
+
+---
+
+### **4. Like a Recipe**
+- **Method**: `PUT`  
+- **Endpoint**: `/api/recipes/{id}/like`  
+- **Description**: Like the recipe with user's id `userId`.
 
 ---
 
