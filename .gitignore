@@ -15,12 +15,6 @@
 # Logs
 *.log
 
-# Configuration Files
-application.properties
-application-*.properties
-application.yml
-application-*.yml
-
 # OS-specific
 .DS_Store
 Thumbs.db
