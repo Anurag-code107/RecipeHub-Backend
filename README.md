@@ -41,8 +41,8 @@ To run the backend locally, ensure you have the following tools installed:
 Clone the repository to your local machine:
 
 ```bash
-git clone https://github.com/your-username/recipe-hub-backend.git
-cd recipe-hub-backend
+git clone https://github.com/Anurag-code107/RecipeHub-Backend.git
+cd RecipeHub-Backend
 ```
 
 ### **Database Setup**
