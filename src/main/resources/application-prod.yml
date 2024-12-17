@@ -1,0 +1,16 @@
+spring:
+  datasource:
+    url: ${DATASOURCE_URL}
+    driver-class-name: com.mysql.cj.jdbc.Driver
+    username: ${DATASOURCE_USER}
+    password: ${DATASOURCE_PASSWORD}
+  jpa:
+    hibernate:
+      ddl-auto: update 
+    show-sql: false 
+
+server:
+  port: 8080
+
+frontend:
+  url: ${FRONTEND_URL}

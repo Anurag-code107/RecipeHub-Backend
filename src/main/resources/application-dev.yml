@@ -1,0 +1,16 @@
+spring:
+  datasource:
+    url: jdbc:mysql://localhost:3306/recipe_sharing_hub
+    driver-class-name: com.mysql.cj.jdbc.Driver
+    username: root
+    password: 0923
+  jpa:
+    hibernate:
+      ddl-auto: update 
+    show-sql: true
+
+server:
+  port: 8282
+
+frontend:
+  url: http://localhost:4200 

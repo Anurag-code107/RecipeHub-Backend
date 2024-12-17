@@ -1,0 +1,11 @@
+spring:
+  application:
+    name: RECIPE-SERVER
+  profiles:
+    active: dev 
+
+server:
+  port: 8282
+
+frontend:
+  url: ${FRONTEND_URL}
