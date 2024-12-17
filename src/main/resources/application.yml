@@ -2,7 +2,7 @@ spring:
   application:
     name: RECIPE-SERVER
   profiles:
-    active: dev 
+    active: prod 
 
 server:
   port: 8282
