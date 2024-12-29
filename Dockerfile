@@ -21,7 +21,7 @@ WORKDIR /app
 # Copy the built JAR file from the build stage
 COPY --from=build /app/target/RECIPE-SERVER-0.0.1-SNAPSHOT.jar .
 
-# Expose port 8080
+# Expose port 8282
 EXPOSE 8282
 
 # Specify the command to run the application
