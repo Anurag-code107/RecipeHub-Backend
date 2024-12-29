@@ -2,7 +2,9 @@
 
 ## **Overview**
 
-Recipe Hub is a platform for managing and sharing recipes, where users can search for, view, and manage recipes. This repository contains the backend for the application, which is built using **Spring Boot 3** and connected to a **MySQL** database.
+Recipe Hub is a full-stack web application for food enthusiasts to explore, share, and manage recipes. Users can create, update, delete, and like recipes, fostering a community-driven experience.This repository contains the backend for the application, which is built using **Spring Boot 3** and connected to a **MySQL** database.
+
+For the frontend, check out the [Recipe Hub Frontend repository](https://github.com/Anurag-code107/RecipeHub-Frontend).
 
 ---
 
@@ -23,6 +25,16 @@ Recipe Hub is a platform for managing and sharing recipes, where users can searc
 - **Multipe Users**: Multiple users can register and use this application.
 - **Database Integration**: MySQL database stores all recipe data and user data.
 - **Basic Security**: Authentication and authorization using Spring Security and JWT tokens.
+
+---
+
+## **Live Demo**
+
+You can try the live version of the Recipe Hub through the link below:
+[Live Demo](https://recipehub-cwd.pages.dev/)
+
+The project is deployed on Railway (backend) and Cloudflare pages (frontend), leveraging free-tier services for scalability and cost efficiency.
+Note that authentication will be required to fully interact with the application.
 
 ---
 
@@ -138,10 +150,10 @@ The backend will be accessible at:
 
 ## **Authentication (Planned)**
 
-- **JWT Authentication**: A JSON Web Token (JWT) authentication mechanism will be used for securing endpoints.
-- **Roles and Permissions**: Role-based access control (RBAC) for user-specific actions (e.g., only admins can delete recipes).
+- **JWT Authentication**: The application uses **JSON Web Tokens (JWT)** for securing endpoints. JWTs are issued after successful user login and are required for accessing protected routes. 
+- **Spring Security**: Spring Security is integrated to provide authentication and basic security for the application, ensuring that only authenticated users can perform certain actions (e.g., creating, updating, or deleting recipes).
 
----
+--- 
 
 ## **Error Handling**
 
@@ -165,7 +177,7 @@ This project is licensed under the **MIT License**.
 
 ## **Support**
 
-If you encounter any issues or have any questions, feel free to open an issue in the GitHub repository or contact us directly.
+If you encounter any issues or have any questions, feel free to open an issue in the [GitHub repository issues page](https://github.com/Anurag-code107/RecipeHub-Backend/issues) or contact us directly at [anuragnegi2704@gmail.com](mailto:anuragnegi2704@gmail.com).
 
 ---
 
