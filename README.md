@@ -171,7 +171,7 @@ We welcome contributions to this project! Please fork the repository and submit 
 
 ## **License**
 
-This project is licensed under the [**MIT License**](LICENSE).
+This project is licensed under the [**Apache License 2.0**](LICENSE).
 
 ---
 
