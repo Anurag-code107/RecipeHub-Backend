@@ -25,6 +25,7 @@ public class AppConfig {
 	SecurityFilterChain securityFilterChain(HttpSecurity http) throws Exception {
 		http.sessionManagement(management -> management.sessionCreationPolicy(SessionCreationPolicy.STATELESS))
 				.authorizeHttpRequests(authorize -> authorize
+				        .requestMatchers("/api/health").permitAll()  // Allow health check to be accessed without authentication
 						.requestMatchers("/api/**").authenticated()
 						.anyRequest().permitAll())
 				.addFilterBefore(new JwtTokenValidator(), BasicAuthenticationFilter.class)
